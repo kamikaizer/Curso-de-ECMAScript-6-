@@ -6,6 +6,8 @@ const obj = {
 
 let { country, ...all } = obj;
 console.log(all);
+// operador de reposo ...all es para invocar todo los objetos o posibles objetos
+// que se agreguen
 
 const obj = {
   name: 'Oscar',
